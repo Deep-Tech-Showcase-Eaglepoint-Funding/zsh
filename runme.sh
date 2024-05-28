@@ -33,9 +33,8 @@ Type=Application
 EOF
 
 
-git config --global credential.helper store
-git config --global credential.helper /usr/bin/git-credential-manager-core
-git config --global credential.credentialStore secretservice
+git config --global credential.helper /usr/bin/git-credential-manager
+git config --global credential.credentialStore plaintext
 
 
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
