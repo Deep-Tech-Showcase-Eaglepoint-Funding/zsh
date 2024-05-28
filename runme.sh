@@ -75,9 +75,9 @@ mkdir -p ~/.anyenv/plugins
 anyenv install --init -y
 
 git clone https://github.com/znz/anyenv-update.git ~/.anyenv/plugins/anyenv-update
-git clone https://github.com/a5ob7r/anyenv-fast-init.git "~/.anyenv/plugins/anyenv-fast-init"
+git clone https://github.com/a5ob7r/anyenv-fast-init.git ~/.anyenv/plugins/anyenv-fast-init
 git clone https://github.com/amashigeseiji/anyenv-lazyload.git ~/.anyenv/plugins/anyenv-lazyload
-git clone https://github.com/momo-lab/anyenv-plugin.git "~/.anyenv"/plugins/anyenv-plugin
+git clone https://github.com/momo-lab/anyenv-plugin.git ~/.anyenv/plugins/anyenv-plugin
 git clone https://github.com/aereal/anyenv-exec.git ~/.anyenv/plugins/anyenv-exec
 git clone https://github.com/link-u/anyenv-cached-init.git ~/.anyenv/plugins/anyenv-cached-init
 git clone https://github.com/dochang/anyenv-target.git ~/.anyenv/plugins/anyenv-target
