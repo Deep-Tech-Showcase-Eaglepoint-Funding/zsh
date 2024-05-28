@@ -100,3 +100,6 @@ git clone https://github.com/real-yfprojects/pyenv-link.git ~/.anyenv/envs/pyenv
 
 
 pipx install pyqt5 cutelog
+
+pyenv install 3.10.10
+pyenv global 3.10.10
