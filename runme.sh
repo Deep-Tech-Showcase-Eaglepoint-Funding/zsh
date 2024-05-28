@@ -8,7 +8,7 @@ yay -S git-credential-manager git-credential-manager-extras google-chrome chrome
 
 sudo systemctl enable teamviewerd.service  --now
 sudo systemctl enable anydesk --now 
-
+fwupdmgr refresh
 git-credential-manager configure
 
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" --unattended
