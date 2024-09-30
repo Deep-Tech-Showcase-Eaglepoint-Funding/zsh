@@ -1,5 +1,7 @@
 #!/bin/zsh
 sudo sed -Ei '/EnableAUR/s/^#//' /etc/pamac.conf
+sudo sed -Ei '/Color/s/^#//' /etc/pacman.conf
+sed -i '/^Color$/a ILoveCandy' /etc/pacman.conf
 
 sudo pacman -S yay base-devel patch tk barrier 
 yay -S git-credential-manager git-credential-manager-extras google-chrome chromedriver teamviewer anydesk-bin fwupd geckodriver python-pipx
